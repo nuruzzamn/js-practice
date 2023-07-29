@@ -1,0 +1,112 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card{
+
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    min-height: 80vh;
+    height: 80%;
+    width: 50%;
+    overflow: scroll;
+    border-radius: 0.6rem;
+
+}
+
+.card-title{
+    font-size: 2rem;
+    font-style: italic;
+    color: burlywood;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+
+input{
+    padding: .3rem;
+    border-radius: .6rem;
+    width: 60%;
+    text-align: center;
+    border: none;
+
+}
+
+.btn{
+    padding: .3rem;
+    border-radius: .6rem;
+    text-align: center;
+    margin-left: .5rem;
+    border: none;
+    border-radius: 0.6rem;
+    background-color: orange;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.li-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin: 1rem 0;
+    transition: all 0.3s;
+}
+
+.li-style:hover{
+    background-color: #111;
+}
+
+.bg-success{
+    margin: 0.5 rem 0;
+    padding: 0.5 rem;
+    color: black;
+    background-color: #ddffdd;
+    border-left: 6px solid #04aa6d;
+}
+
+.bg-dranger{
+    margin: 0.5 rem 0;
+    padding: 0.5 rem;
+    color: white;
+    background-color: #96152d;
+    border-left: 6px solid #3304aa;
+}
+
+
+#message {
+    padding: 5px 5px;
+    margin: 0.5rem 0rem;
+    text-align: center;
+}
